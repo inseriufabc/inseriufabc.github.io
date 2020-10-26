@@ -1,0 +1,65 @@
+<head>
+  <title>Personality Quiz</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="stylegame.css" />
+</head>
+
+<body>
+  <!--<div class="instrucoes hiden">
+     <p>Se liga nas isntruções</p>
+    </div>-->
+
+  <div class="quiz-container">
+    <div class="title">
+      <div class="logo">
+        <img src="images/InseRI logo TOP.png" /> Teste Vocacional
+      </div>
+    </div>
+
+    <div id="question" class="question"></div>
+    <label class="option">
+      <input type="radio" name="option" value="1" />
+      <span class="option1"></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option" value="2" />
+      <span class="option2"></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option" value="3" />
+      <span class="option3"></span>
+    </label>
+    <!-- Buttons -->
+    <div class="controls">
+      <button class="previous">Voltar</button>
+      <button class="next">Próximo</button>
+    </div>
+  </div>
+
+  <div class="result"></div>
+  <div class="terceiro-setor hiden">
+    <p>Você se encaixa mais no 3° setor</p>
+  </div>
+
+  <div class="segundo-setor hiden">
+    <h1>Resultado:</h1>
+    <p>
+      Você se encaixa mais no 2° setor breve descrição sobre o segundo setor
+    </p>
+
+    <p>Entenda sua pontuação</p>
+  </div>
+
+  <div class="primeiro-setor hiden">
+    <p>
+      Você se encaixa mais no 1° setor breve descrição sobre o segundo setor
+    </p>
+
+    <p>Entenda sua pontuação</p>
+  </div>
+
+  <script src="appgame.js"></script>
+</body>
